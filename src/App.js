@@ -6,6 +6,15 @@ function App() {
      
      <h1>This is a React web app</h1>
 
+    {/* Header */}
+
+    {/* app body */}
+    {/* Sidebar */}
+    {/* Feed */}
+    {/* Widgets */}
+
+
+
     </div>
   );
 }
