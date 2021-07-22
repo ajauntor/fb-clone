@@ -1,5 +1,7 @@
 .header{
+    padding: 15px 20px;
     display: flex;
+    justify-content: space-between;
 }
 .header_left > img {
     height: 40px;
