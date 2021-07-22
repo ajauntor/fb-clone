@@ -2,6 +2,8 @@ import React from 'react';
 import logo from '../image/logo.png'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
+import HomeIcon from '@material-ui/icons/Home';
+import FlagIcon from '@material-ui/icons/Flag';
 
 const Header = () => {
     return (
@@ -15,7 +17,14 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="header_middle"></div>
+            <div className="header_middle">
+                <div className="header_option">
+                    <HomeIcon fontSize="large"/>
+                </div>
+                <div className="header_option">
+                    <FlagIcon fontSize="large"/>
+                </div>
+            </div>
 
             <div className="header_right"></div>
 
