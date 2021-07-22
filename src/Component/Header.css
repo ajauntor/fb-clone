@@ -9,6 +9,11 @@
     top: 0;
     box-shadow: 0px 5px 8px -9px rgb(32, 32, 32);
 }
+.header_left{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .header_left > img {
     height: 40px;
 }
