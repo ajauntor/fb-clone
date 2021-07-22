@@ -16,6 +16,10 @@
 .search_input{
     display: flex;
     align-items: center;
+    background-color: #eff2fe;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
 }
 .header_left > img {
     height: 40px;
