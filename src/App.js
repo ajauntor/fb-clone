@@ -1,3 +1,4 @@
+import Header from '../Header';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
      <h1>This is a React web app</h1>
 
     {/* Header */}
+    <Header/>
 
     {/* app body */}
     {/* Sidebar */}
