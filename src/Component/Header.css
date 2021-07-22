@@ -13,7 +13,10 @@
     display: flex;
     justify-content: space-evenly;
 }
-
+.search_input{
+    display: flex;
+    align-items: center;
+}
 .header_left > img {
     height: 40px;
 }
