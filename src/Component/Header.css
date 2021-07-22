@@ -2,6 +2,10 @@
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
+
+    position: sticky;
+    background-color: white;
+    z-index: 100;
 }
 .header_left > img {
     height: 40px;
