@@ -3,7 +3,7 @@ import './SidebarRow.css'
 
 const SidebarRow = () => {
     return (
-        <div>
+        <div className="sidebarRow">
             
         </div>
     );
