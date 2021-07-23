@@ -30,3 +30,9 @@
 .header_left > img {
     height: 40px;
 }
+
+.header_middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
