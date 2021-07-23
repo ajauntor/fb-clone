@@ -21,7 +21,7 @@ const Header = () => {
                 <img src={logo} alt="" />
                 <div className="search_input">
                     <SearchIcon/>
-                    <input placeholder="Search facebook" type="text" name="" id="" />
+                    <input placeholder="Search Facebook" type="text" name="" id="" />
                 </div>
             </div>
 
