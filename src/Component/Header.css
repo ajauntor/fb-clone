@@ -64,3 +64,11 @@
     display: flex;
     align-items: center;
 }
+
+.header_info > h4 {
+    margin-left: 10px;
+}
+
+.header_right{
+    display: flex;
+}
