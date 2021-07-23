@@ -2,7 +2,6 @@
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
-
     position: sticky;
     background-color: white;
     z-index: 100;
@@ -17,7 +16,7 @@
     display: flex;
     align-items: center;
     background-color: #eff2fe;
-    padding: 10px;
+    padding: 8px;
     margin-left: 10px;
     border-radius: 999px;
 }
