@@ -1,4 +1,4 @@
-import { ChatOutlined, EmojiFlags, LocalHospital, PeopleOutline, Storefront, VideoLabel} from '@material-ui/icons';
+import { ArrowDownwardRounded, ChatOutlined, EmojiFlags, LocalHospital, PeopleOutline, Storefront, VideoLabel} from '@material-ui/icons';
 import React from 'react';
 import './SideBar.css'
 import SidebarRow from './SidebarRow';
@@ -13,6 +13,7 @@ const SideBar = () => {
             <SidebarRow Icon={ChatOutlined} title="Messenger"/>
             <SidebarRow Icon={Storefront} title="Marketplace"/>
             <SidebarRow Icon={VideoLabel} title="Videos"/>
+            <SidebarRow Icon={ArrowDownwardRounded} title="More"/>
         </div>
     );
 };
