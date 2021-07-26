@@ -1,7 +1,7 @@
 import React from 'react';
 import './Story.css'
 
-const Story = () => {
+const Story = ({image, profileSrc, title }) => {
     return (
         <div className="story">
             
