@@ -1,4 +1,5 @@
 import React from 'react';
+import './StoryReel.css'
 
 const StoryReel = () => {
     return (
