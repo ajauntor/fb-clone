@@ -3,7 +3,7 @@ import './StoryReel.css'
 
 const StoryReel = () => {
     return (
-        <div>
+        <div className="storyReel">
             
         </div>
     );
