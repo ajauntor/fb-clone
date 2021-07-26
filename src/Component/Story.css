@@ -6,4 +6,12 @@
     width: 120px;
     height: 200px;
     box-shadow: 0px 5px 17px -7px rgb(54, 50, 50);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.story:hover {
+    
 }
