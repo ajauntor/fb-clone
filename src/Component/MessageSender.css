@@ -50,3 +50,7 @@
     margin: 5px;
 }
 
+.messageSender_option > h3 {
+    font-size: medium;
+    margin-left: 10px;
+}
