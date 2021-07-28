@@ -3,14 +3,29 @@ import React from 'react';
 import './MessageSender.css'
 
 const MessageSender = () => {
+
+    const handleSubmit = e => {
+        e.preventDefault();
+    }
+
     return (
         <div className="messageSender">
 
             <div className="messageSender_top">
                 <Avatar />
-                <form action="">
-                    <input type="text" />
-                    <input type="text" />
+                <form>
+
+                    <input
+                    className="messageSender_input"
+                    placeholder={"What's on your mind"}
+                    />
+
+                    <input placeholder="Image URL (Optional)" />
+
+                    <button onClick={handleSubmit} type="submit">
+
+                    </button>
+
                 </form>
             </div>
 
