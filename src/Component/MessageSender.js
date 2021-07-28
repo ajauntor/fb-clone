@@ -20,7 +20,7 @@ const MessageSender = () => {
 
                     <input
                     value={input}
-                    onChange={e => setInput(e.target.value)}
+                    onChange={(e) => setInput(e.target.value)}
                     className="messageSender_input"
                     placeholder={"What's on your mind?"}
                     />
