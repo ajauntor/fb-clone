@@ -5,7 +5,7 @@ import './MessageSender.css'
 const MessageSender = () => {
 
     const handleSubmit = e => {
-        e.preventDefault();
+        // e.preventDefault();
     }
 
     return (
@@ -23,7 +23,7 @@ const MessageSender = () => {
                     <input placeholder="Image URL (Optional)" />
 
                     <button onClick={handleSubmit} type="submit">
-
+                        Hidden button
                     </button>
 
                 </form>
