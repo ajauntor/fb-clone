@@ -1,4 +1,5 @@
 import { Avatar } from '@material-ui/core';
+import { Videocam } from '@material-ui/icons';
 import React from 'react';
 import './MessageSender.css'
 
@@ -30,6 +31,10 @@ const MessageSender = () => {
             </div>
 
             <div className="messageSender_bottom">
+
+                <div className="messageSender_option">
+                    <Videocam style={{color:"red"}} />
+                </div>
 
             </div>
             
