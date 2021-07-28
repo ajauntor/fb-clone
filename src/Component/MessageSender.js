@@ -8,6 +8,10 @@ const MessageSender = () => {
 
             <div className="messageSender_top">
                 <Avatar />
+                <form action="">
+                    <input type="text" />
+                    <input type="text" />
+                </form>
             </div>
 
             <div className="messageSender_bottom">
