@@ -9,8 +9,8 @@ const MessageSender = () => {
 
             </div>
 
-            <div className="messageSender_botton">
-                
+            <div className="messageSender_bottom">
+
             </div>
             
         </div>
