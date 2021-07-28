@@ -5,7 +5,7 @@ import './MessageSender.css'
 const MessageSender = () => {
 
     const handleSubmit = e => {
-        // e.preventDefault();
+        e.preventDefault();
     }
 
     return (
