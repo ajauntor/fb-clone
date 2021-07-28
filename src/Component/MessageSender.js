@@ -9,7 +9,9 @@ const MessageSender = () => {
 
             </div>
 
-            
+            <div className="messageSender_botton">
+                
+            </div>
             
         </div>
     );
