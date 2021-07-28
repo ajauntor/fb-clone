@@ -18,7 +18,7 @@ const MessageSender = () => {
 
                     <input
                     className="messageSender_input"
-                    placeholder={"What's on your mind"}
+                    placeholder={"What's on your mind?"}
                     />
 
                     <input placeholder="Image URL (Optional)" />

@@ -28,3 +28,7 @@
     border-radius: 999px;
     background-color: #eff2f5;
 }
+
+.messageSender_top > form > button {
+    display: none;
+}
