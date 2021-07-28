@@ -3,7 +3,7 @@ import './MessageSender.css'
 
 const MessageSender = () => {
     return (
-        <div>
+        <div className="messageSender">
             
         </div>
     );
