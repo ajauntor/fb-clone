@@ -5,3 +5,18 @@
     background-color: white;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
 }
+
+.post_top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post_avatar {
+    margin-right: 10px;
+}
+
+.post_image > img {
+    width: 100%;
+}
