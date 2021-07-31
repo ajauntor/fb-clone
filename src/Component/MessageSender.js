@@ -11,6 +11,8 @@ const MessageSender = () => {
         e.preventDefault();
     };
 
+    //Some Clever Database stuff
+
     
 
     return (
