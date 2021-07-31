@@ -35,3 +35,14 @@
 .post_image > img {
     width: 100%;
 }
+
+.post_options {
+    padding-top: 10px;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px ;
+}
