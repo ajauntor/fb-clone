@@ -20,7 +20,7 @@ const StoryReel = () => {
                     title="Mesut Özil"
                     />
 
-            <Story image="https://scontent.fdac127-1.fna.fbcdn.net/v/t39.30808-6/213613228_2581867175448487_5129742940697327605_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=e3f864&_nc_ohc=P3R2gbYibA8AX8G9kvd&tn=W0AgczWX4az28sVt&_nc_ht=scontent.fdac127-1.fna&oh=18cab6c1942585e17fa09ddc1c9929c1&oe=6104E2DD"
+            <Story image="https://i.ibb.co/2ZdDYwV/Pics-Art-12-25-07-14-05.png"
                     profileSrc="https://simgbb.com/avatar/H7HSK3Mv42CZ.png"
                     title="AJ Auntor"
                     />

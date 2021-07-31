@@ -9,7 +9,7 @@ const MessageSender = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-    }
+    };
 
     return (
         <div className="messageSender">
