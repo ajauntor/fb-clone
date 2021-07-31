@@ -13,7 +13,9 @@ const Feed = () => {
             <MessageSender />
 
             <Post />
-            
+            <Post />
+            <Post />
+
         </div>
     );
 };
