@@ -9,13 +9,13 @@ const MessageSender = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
+
+
+        //Some Clever Database stuff
+
+        setInput("");
+        setImageURL("");
     };
-
-    //Some Clever Database stuff
-
-    setInput("");
-    setImageURL("");
-
 
 
     return (
