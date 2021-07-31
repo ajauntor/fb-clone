@@ -14,7 +14,7 @@ const MessageSender = () => {
     //Some Clever Database stuff
 
     setInput("");
-    
+    setImageURL("");
 
 
 
