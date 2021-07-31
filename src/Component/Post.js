@@ -12,9 +12,10 @@ const Post = ({profilePic, image, userName, timeStamp, message}) => {
                     <h3>{userName}</h3>
                     <p>timeStamp..</p>
                 </div>
-
             </div>
-            
+            <div className="post_bottom">
+                <p>{message}</p>
+            </div>
         </div>
     );
 };
