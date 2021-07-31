@@ -1,5 +1,5 @@
 import { Avatar } from '@material-ui/core';
-import { ChatBubbleOutline, NearMeOutlined, ThumbUp } from '@material-ui/icons';
+import { AccountCircle, ChatBubbleOutline, ExpandMoreOutlined, NearMeOutlined, ThumbUp } from '@material-ui/icons';
 import React from 'react';
 import './Post.css'
 
@@ -40,7 +40,8 @@ const Post = ({profilePic, image, userName, timeStamp, message}) => {
                 </div>
 
                 <div className="post_option">
-                    
+                    <AccountCircle />
+                    <ExpandMoreOutlined />
                 </div>
             </div>
         </div>
