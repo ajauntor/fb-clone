@@ -13,7 +13,10 @@ const MessageSender = () => {
 
     //Some Clever Database stuff
 
+    setInput("");
     
+
+
 
     return (
         <div className="messageSender">
