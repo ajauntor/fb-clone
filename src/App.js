@@ -6,22 +6,23 @@ import Widgets from './Component/Widgets';
 
 function App() {
 
-  const user = null;
+  const user = "AJ";
 
 
   return (
     <div className="app">
 
-    <Header/>
-
-    <div className="app_body">
-    <SideBar/>
-    <Feed />
-    <Widgets />
-    </div>
-
-
-
+      {!user ? (<h1>Login</h1>) :
+      (
+        <>
+        <Header/>
+        <div className="app_body">
+        <SideBar/>
+        <Feed />
+        <Widgets />
+        </div>
+        </>
+      )}
     </div>
   );
 }
