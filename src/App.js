@@ -5,6 +5,10 @@ import Feed from './Component/Feed';
 import Widgets from './Component/Widgets';
 
 function App() {
+
+  const user = null;
+
+
   return (
     <div className="app">
 
