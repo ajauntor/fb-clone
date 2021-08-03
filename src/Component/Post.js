@@ -35,7 +35,7 @@ const Post = ({profilePic, image, userName, timeStamp, message}) => {
                 </div>
 
                 <div className="post_option">
-                    <NearMeOutlined/>
+                    {/* <NearMeOutlined/> */}
                     <p>Share</p>
                 </div>
 
