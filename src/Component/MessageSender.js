@@ -11,7 +11,7 @@ const MessageSender = () => {
         e.preventDefault();
 
 
-        //Some Clever Database stuff
+        Some Clever Database stuff
 
         setInput("");
         setImageURL("");
