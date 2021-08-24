@@ -9,8 +9,8 @@
 .post_top {
     display: flex;
     position: relative;
-    align-items: center;
-    padding: 15px;
+    /* align-items: center;
+    padding: 15px; */
 }
 
 .post_avatar {
