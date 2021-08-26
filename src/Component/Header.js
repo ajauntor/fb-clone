@@ -12,8 +12,11 @@ import AddIcon from '@material-ui/icons/Add';
 import ForumIcon from '@material-ui/icons/Forum';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { useStateValue } from './StateProvider';
 
 const Header = () => {
+    const [{user}, dispatch] = useStateValue();
+
     return (
         <div className="header">
 
