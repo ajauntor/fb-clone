@@ -49,8 +49,8 @@ const Header = () => {
 
             <div className="header_right">
                 <div className="header_info">
-                    <Avatar/>
-                    <h4>AJ Auntor</h4>
+                    <Avatar src={user.photoURL}/>
+                    <h4>{user.displayName}</h4>
                 </div>
                 <IconButton>
                 <AddIcon/>
