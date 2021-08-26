@@ -2,11 +2,15 @@ import { ArrowDownwardRounded, ChatOutlined, EmojiFlags, LocalHospital, PeopleOu
 import React from 'react';
 import './SideBar.css'
 import SidebarRow from './SidebarRow';
+import { useStateValue } from './StateProvider';
 
 const SideBar = () => {
+    const [{user}, dispatch] = useStateValue();
+
+
     return (
         <div className="sidebar">
-            <SidebarRow src="https://media-exp1.licdn.com/dms/image/C4E03AQHbdJifA8Fc8w/profile-displayphoto-shrink_200_200/0/1619802784619?e=1628121600&v=beta&t=6KLoIZTR_ynzzE_tduqzMTWRYtIbnc67fTp-D1ULGDQ" title="AJ Auntor"/>
+            <SidebarRow src={user.photoURL} title={user.displayName}/>
             <SidebarRow Icon={LocalHospital} title="COVID-19 Information Center"/>
             <SidebarRow Icon={EmojiFlags} title="Pages"/>
             <SidebarRow Icon={PeopleOutline} title="Friends"/>
