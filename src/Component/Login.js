@@ -12,7 +12,7 @@ const Login = () => {
         <div className="login">
 
             <div className="login_logo">
-                <img src="
+                <img className="circle_logo" src="
                             https://i.ibb.co/0C3QNLN/Facebook-logo.png
                 " alt="" />
 

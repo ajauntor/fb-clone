@@ -16,6 +16,10 @@
     height: 100px;
 }
 
+.circle_logo {
+    padding-bottom: 80px;
+}
+
 .login > div {
     display: flex;
     flex-direction: column;
