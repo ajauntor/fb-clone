@@ -3,6 +3,7 @@ import './App.css';
 import SideBar from './Component/SideBar';
 import Feed from './Component/Feed';
 import Widgets from './Component/Widgets';
+import Login from './Component/Login';
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
   return (
     <div className="app">
 
-      {!user ? (<h1>Login</h1>) :
-      (
+      {!user ? (
+        <Login /> 
+        ) : (
         <>
         <Header/>
         <div className="app_body">
