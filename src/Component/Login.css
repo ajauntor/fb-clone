@@ -11,6 +11,11 @@
     font-weight: 800;
 }
 
+.login > button:hover {
+    background-color: white;
+    color: #2e81f4;
+}
+
 .login > div > img {
     object-fit: contain;
     height: 100px;
