@@ -3,6 +3,8 @@ import { InsertEmoticon, PhotoAlbum, Videocam } from '@material-ui/icons';
 import React, { useState } from 'react';
 import './MessageSender.css'
 import { useStateValue } from './StateProvider';
+import db from './firebase.config';
+import firebase from 'firebase';
 
 const MessageSender = () => {
     const [{user}, dispatch] = useStateValue();
