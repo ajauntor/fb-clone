@@ -14,6 +14,15 @@ const MessageSender = () => {
     const handleSubmit = e => {
         e.preventDefault();
 
+        db.collection("posts").add({
+            message: input,
+            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+            profilePic: user.photoURL,
+            username: user.displayName,
+            image: imageURL
+
+        })
+
 
         // Some Clever Database stuff
 
