@@ -22,7 +22,7 @@
 
 .messageSender_top > form > input {
     outline-width: 0;
-    
+    border:none;
     padding: 5px 20px;
     margin: 0 10px;
     border-radius: 999px;
