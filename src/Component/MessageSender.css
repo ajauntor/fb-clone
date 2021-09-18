@@ -43,6 +43,7 @@
 }
 
 .messageSender_option {
+    display: flex;
     
     align-items: center;
     color: gray;
