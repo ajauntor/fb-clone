@@ -44,7 +44,7 @@
 
 .messageSender_option {
     display: flex;
-    
+    padding: 20px;
     align-items: center;
     color: gray;
     margin: 5px;
