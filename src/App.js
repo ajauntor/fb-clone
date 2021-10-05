@@ -1,3 +1,4 @@
+import Header from './Component/Header';
 
 
 function App() {
