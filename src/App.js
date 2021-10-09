@@ -3,6 +3,7 @@ import './App.css';
 import SideBar from './Component/SideBar';
 import Feed from './Component/Feed';
 import Widgets from './Component/Widgets';
+import Login from './Component/Login';
 
 
 function App() {
