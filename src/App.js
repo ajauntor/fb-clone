@@ -4,7 +4,7 @@ import SideBar from './Component/SideBar';
 import Feed from './Component/Feed';
 import Widgets from './Component/Widgets';
 import Login from './Component/Login';
-
+import { useStateValue } from './Component/StateProvider';
 
 function App() {
 
