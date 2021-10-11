@@ -8,7 +8,7 @@ import { useStateValue } from './Component/StateProvider';
 
 function App() {
 
-  const [{user}, dispatch] = useStateValue();
+  
 
 
 
