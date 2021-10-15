@@ -21,9 +21,7 @@ function App() {
         <>
         <Header/>
         <div className="app_body">
-        <SideBar/>
-        <Feed />
-        <Widgets />
+        
         </div>
         </>
       )}
